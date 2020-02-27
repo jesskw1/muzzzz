@@ -1,3 +1,78 @@
-@charset "utf-8";
+@charset "UTF-8";
 /* CSS Document */
+body {
+	margin: 0;
+	height: 100vh;
+	background-color: rgb(222, 181, 160);
+	font-family: alfarn, sans-serif;
+    line-height: 1.5;
+	
+}
+
+
+
+.col-sm-3 {
+	margin-top: 48vh;
+	margin-bottom: 2vh;
+	position: relative;
+	height: 50em;
+	width: 50em;
+	outline: 1px solid black;
+}
+
+.col-lg-8 {
+	outline: 1px solid black;
+}
+.square {
+	height: 298px;
+	width: 400px;
+	outline: 1px solid black;
+	position: absolute;
+
+}
+
+.squarez {
+	height: 840px;
+	width: 700px;
+	outline: 1px solid black;
+	margin-left: 100px;
+	margin-right: 0;
+	position: absolute;
+	
+		
+}
+
+
+.roses {
+	margin-top: 2vh;
+	margin-right: 15vh;
+	
+	position: absolute;
+	width: 400px;
+	height: 400px;
+}
+
+
+.model {
+	margin-top: 0vh;
+	margin-left: 16vw;
+	position: relative;
+	z-index: -1;
+	max-width: 100%;
+	height: 700px;
+	width: 700px
+	
+	
+}
+
+.col-sm-1 {
+	margin-left: 80vh;
+	transform-origin: 0 0;
+	outline: 1px solid black;
+ 
+	transform: rotate(-90deg);
+	 
+}
+
+
 
